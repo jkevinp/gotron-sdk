@@ -274,7 +274,7 @@ func (ks *KeyStore) SignTx(a Account, tx *core.Transaction) (*core.Transaction, 
 	if !found {
 		return nil, ErrLocked
 	}
-	defer zeroKey(unlockedKey.PrivateKey)
+	//defer zeroKey(unlockedKey.PrivateKey)
 
 	rawData, err := proto.Marshal(tx.GetRawData())
 	if err != nil {
