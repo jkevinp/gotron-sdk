@@ -167,12 +167,8 @@ func (C *Controller) GetResultError() error {
 // Each step in transaction creation, execution probably includes a mutation
 // Each becomes a no-op if executionError occurred in any previous step
 func (C *Controller) ExecuteTransaction() error {
-	switch C.Behavior.SigningImpl {
-	case Software:
-		C.signTxForSending()
-	case Ledger:
-		C.hardwareSignTxForSending()
-	}
+	fmt.Println("Executing transaction..")
+	C.signTxForSending()
 	C.sendSignedTx()
 	C.txConfirmation()
 	return C.executionError
