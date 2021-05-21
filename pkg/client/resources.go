@@ -1,9 +1,9 @@
 package client
 
 import (
-	"github.com/jkevindp/gotron-sdk/pkg/common"
-	"github.com/jkevindp/gotron-sdk/pkg/proto/api"
-	"github.com/jkevindp/gotron-sdk/pkg/proto/core"
+	"github.com/jkevinp/gotron-sdk/pkg/common"
+	"github.com/jkevinp/gotron-sdk/pkg/proto/api"
+	"github.com/jkevinp/gotron-sdk/pkg/proto/core"
 )
 
 // GetAccountResource from BASE58 address

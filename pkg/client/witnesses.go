@@ -4,9 +4,9 @@ import (
 	"fmt"
 
 	"github.com/golang/protobuf/proto"
-	"github.com/jkevindp/gotron-sdk/pkg/common"
-	"github.com/jkevindp/gotron-sdk/pkg/proto/api"
-	"github.com/jkevindp/gotron-sdk/pkg/proto/core"
+	"github.com/jkevinp/gotron-sdk/pkg/common"
+	"github.com/jkevinp/gotron-sdk/pkg/proto/api"
+	"github.com/jkevinp/gotron-sdk/pkg/proto/core"
 )
 
 // ListWitnesses return all witnesses

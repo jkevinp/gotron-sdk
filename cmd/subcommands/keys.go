@@ -6,12 +6,12 @@ import (
 	"os"
 
 	"github.com/fatih/color"
-	"github.com/jkevindp/gotron-sdk/pkg/account"
-	c "github.com/jkevindp/gotron-sdk/pkg/common"
+	"github.com/jkevinp/gotron-sdk/pkg/account"
+	c "github.com/jkevinp/gotron-sdk/pkg/common"
 
-	"github.com/jkevindp/gotron-sdk/pkg/ledger"
-	"github.com/jkevindp/gotron-sdk/pkg/mnemonic"
-	"github.com/jkevindp/gotron-sdk/pkg/store"
+	"github.com/jkevinp/gotron-sdk/pkg/ledger"
+	"github.com/jkevinp/gotron-sdk/pkg/mnemonic"
+	"github.com/jkevinp/gotron-sdk/pkg/store"
 	"github.com/spf13/cobra"
 	"github.com/tyler-smith/go-bip39"
 )

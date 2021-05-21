@@ -7,12 +7,12 @@ import (
 	"strconv"
 	"strings"
 
-	"github.com/jkevindp/gotron-sdk/pkg/address"
-	"github.com/jkevindp/gotron-sdk/pkg/client/transaction"
-	"github.com/jkevindp/gotron-sdk/pkg/common"
-	"github.com/jkevindp/gotron-sdk/pkg/keystore"
-	"github.com/jkevindp/gotron-sdk/pkg/proto/core"
-	"github.com/jkevindp/gotron-sdk/pkg/store"
+	"github.com/jkevinp/gotron-sdk/pkg/address"
+	"github.com/jkevinp/gotron-sdk/pkg/client/transaction"
+	"github.com/jkevinp/gotron-sdk/pkg/common"
+	"github.com/jkevinp/gotron-sdk/pkg/keystore"
+	"github.com/jkevinp/gotron-sdk/pkg/proto/core"
+	"github.com/jkevinp/gotron-sdk/pkg/store"
 	"github.com/spf13/cobra"
 )
 

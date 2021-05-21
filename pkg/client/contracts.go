@@ -5,11 +5,11 @@ import (
 	"fmt"
 	"strconv"
 
-	"github.com/jkevindp/gotron-sdk/pkg/abi"
-	"github.com/jkevindp/gotron-sdk/pkg/address"
-	"github.com/jkevindp/gotron-sdk/pkg/common"
-	"github.com/jkevindp/gotron-sdk/pkg/proto/api"
-	"github.com/jkevindp/gotron-sdk/pkg/proto/core"
+	"github.com/jkevinp/gotron-sdk/pkg/abi"
+	"github.com/jkevinp/gotron-sdk/pkg/address"
+	"github.com/jkevinp/gotron-sdk/pkg/common"
+	"github.com/jkevinp/gotron-sdk/pkg/proto/api"
+	"github.com/jkevinp/gotron-sdk/pkg/proto/core"
 	"google.golang.org/protobuf/proto"
 )
 

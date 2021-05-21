@@ -1,4 +1,4 @@
-module github.com/jkevindp/gotron-sdk
+module github.com/jkevinp/gotron-sdk
 
 go 1.14
 

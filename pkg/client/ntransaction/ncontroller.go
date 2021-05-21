@@ -13,12 +13,12 @@ import (
 	"github.com/btcsuite/btcutil/base58"
 	"github.com/ethereum/go-ethereum/crypto"
 	proto "github.com/golang/protobuf/proto"
-	"github.com/jkevindp/gotron-sdk/pkg/client"
-	"github.com/jkevindp/gotron-sdk/pkg/common"
-	"github.com/jkevindp/gotron-sdk/pkg/keystore"
-	"github.com/jkevindp/gotron-sdk/pkg/ledger"
-	"github.com/jkevindp/gotron-sdk/pkg/proto/api"
-	"github.com/jkevindp/gotron-sdk/pkg/proto/core"
+	"github.com/jkevinp/gotron-sdk/pkg/client"
+	"github.com/jkevinp/gotron-sdk/pkg/common"
+	"github.com/jkevinp/gotron-sdk/pkg/keystore"
+	"github.com/jkevinp/gotron-sdk/pkg/ledger"
+	"github.com/jkevinp/gotron-sdk/pkg/proto/api"
+	"github.com/jkevinp/gotron-sdk/pkg/proto/core"
 
 	"golang.org/x/crypto/sha3"
 )

@@ -3,7 +3,7 @@ package cmd
 import (
 	"fmt"
 
-	"github.com/jkevindp/gotron-sdk/pkg/address"
+	"github.com/jkevinp/gotron-sdk/pkg/address"
 	"github.com/spf13/cobra"
 )
 

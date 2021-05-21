@@ -5,7 +5,7 @@ import (
 
 	"github.com/btcsuite/btcd/btcec"
 	secp256k1 "github.com/btcsuite/btcd/btcec"
-	"github.com/jkevindp/gotron-sdk/pkg/keys/hd"
+	"github.com/jkevinp/gotron-sdk/pkg/keys/hd"
 	"github.com/tyler-smith/go-bip39"
 )
 
